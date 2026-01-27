@@ -25,6 +25,5 @@ public class keyboard implements KeyListener {
 
     @Override
     public void keyReleased(KeyEvent keyEvent) {
-
     }
 }
