@@ -12,5 +12,4 @@ public class window {
         jframe.pack();
         jframe.setVisible(true);
     }
-
 }
