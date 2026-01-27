@@ -16,6 +16,10 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
+*.exe
+*.dll
+*.so
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
