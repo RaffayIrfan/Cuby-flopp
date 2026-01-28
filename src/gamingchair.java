@@ -3,6 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 
 public class gamingchair implements Runnable {
     private window window;
@@ -22,7 +23,8 @@ public class gamingchair implements Runnable {
         initClasses();
 
         try {
-            File soundFile = new File("src/res/audio.wav").getAbsoluteFile();
+            URL soundFile = gamingchair.class.getResource("/res/audio.wav");
+            //File soundFile = new File("src/res/audio.wav").getAbsoluteFile();
             AudioInputStream audioIn = AudioSystem.getAudioInputStream(soundFile);
 
             Clip clip = AudioSystem.getClip();
