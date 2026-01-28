@@ -7,7 +7,7 @@ import java.io.InputStream;
 public class loadsave {
     public static final String PLAYER = "cube_119.png";
     public static final String LEVEL= "rock.png";
-    public static final String LEVEL_DATA = "res/lev.png";
+    public static final String LEVEL_DATA = "lev.png";
     public static final String block = "block.jpeg";
 
     public static BufferedImage GetSpriteAtlas(String fileName) {
